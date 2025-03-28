@@ -34,8 +34,8 @@ void swap(int *a, int *b){
      }
      printf("mảng sau khi sắp xếp tăng dần là : \n");
      dequy(arr,0,x);
-     for(int j = 0 ; j<x;j++){
-         printf("%d ", &arr[j]);
+     for(int j = 0 ; j<x-1;j++){
+         printf("%d ", arr[j]);
      }
      return 0;
  }
